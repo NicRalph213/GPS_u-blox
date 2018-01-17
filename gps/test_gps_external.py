@@ -17,7 +17,7 @@ try:
         print "Latitude (DDD MM.MMM): ", gps.latitude
         print "Longitude (DDD MM.MMM): ", gps.longitude
         print "Elevation (m): ", gps.altitude
-        print "Detected Satelites: ", gps.num_sats
+        print "Detected Satellites: ", gps.num_sats
         print "Position Quality: ", gps.coord_quality
 
 except KeyboardInterrupt:
