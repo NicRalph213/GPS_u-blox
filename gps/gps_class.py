@@ -90,7 +90,7 @@ class GPS:
         
     def get_data(self):
         """
-        main class method
+        Main class method
         collect serial data from u-blox and parse for latitude etc.
         operation stores the parsed data in respective instance variables
         
