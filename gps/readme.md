@@ -1,4 +1,4 @@
-# u-blox 6 EVK-6 GPS class
+# U-Blox 6 EVK-6 GPS class
 
 Basic usage:
 - from gps_class import GPS class
