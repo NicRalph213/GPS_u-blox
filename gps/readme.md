@@ -12,7 +12,7 @@ Basic usage: (also see test_gps_external.py)
   - latitude, longitude
   - alititude (m)
   - quality index 
-  - number of satelites 
+  - number of satellites 
 
 
 
