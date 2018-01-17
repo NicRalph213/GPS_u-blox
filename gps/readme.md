@@ -4,6 +4,9 @@ Basic usage:
 - from gps_class import GPS class
 - create class object, specifying device baud rate and port (string):
   - gps = GPS(baud = 9600, port = '/dev/ttyACM0')
+- run operation
+  - gps.get_data()
+- call on gps.KEYWORD to retrieve keyword as a string 
 
 - retriveable keywords:
   - latitude, longitude
@@ -11,7 +14,7 @@ Basic usage:
   - quality index 
   - number of satelites 
 
-- call on gps.KEYWORD to retrieve as string 
+
 
 Note: 
   - baud rate is constant for u-blox device
