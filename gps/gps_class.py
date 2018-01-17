@@ -1,7 +1,7 @@
 #Nic Ralph 2018
 #Western Sydney University 
 
-#Check presence of serial library and import
+#Check for serial library and import
 try:
     import serial
 except:
