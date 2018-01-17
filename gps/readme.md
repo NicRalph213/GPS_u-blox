@@ -1,7 +1,7 @@
 # u-blox GPS class
 
 Basic usage:
-- import GPS class
+- from gps_class import GPS class
 - create class object, specifying device baud rate and port (string):
   - gps = GPS(baud = 9600, port = '/dev/ttyACM0')
 
