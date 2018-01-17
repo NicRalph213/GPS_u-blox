@@ -1,4 +1,4 @@
-# u-blox GPS class
+# u-blox 6 EVK-6 GPS class
 
 Basic usage:
 - from gps_class import GPS class
@@ -17,7 +17,7 @@ Basic usage:
 
 
 Note: 
-  - baud rate is constant for u-blox device
+  - baud rate is constant for u-blox 6 EVK-6
   - port may change
   - console user profile must have sufficient permissions to access serial port
   - focusing on GPGGA GPS fix serial string
