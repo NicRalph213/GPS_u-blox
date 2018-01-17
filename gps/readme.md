@@ -17,6 +17,8 @@ Basic usage:
 
 
 Note: 
+  - latitude and longitude are expressed in DMM, 
+    - e.g 3346.944 S 15032.231 E = 33 46.944 S, 150 32.231 E 
   - baud rate is constant for u-blox 6 EVK-6
   - port may change
   - console user profile must have sufficient permissions to access serial port
