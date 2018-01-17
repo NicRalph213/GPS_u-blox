@@ -1,3 +1,5 @@
+#Nic Ralph 2018
+#Western Sydney University 
 
 #Check presence of serial library and import
 try:
@@ -5,7 +7,6 @@ try:
 except:
     print "PySerial library missing"
     exit(1)
-
 
 class GPS:
 
@@ -25,7 +26,6 @@ class GPS:
         self.altitude = None
         self.coord_quality = None
         self.num_sats = None
-
 
     def checksum(self,response_string):
         """
@@ -49,7 +49,6 @@ class GPS:
     
         return ("%02X" % checksum) == response_string[-2:]
 
-
     def parse_GPGGA_code(self,response_string):
         """
         Sort through GPGGA response string for latitude, etc.
@@ -71,7 +70,6 @@ class GPS:
         self.num_sats = response_string[7]
         self.altitude = response_string[9]
 
-
     def parse_NMEA_resp(self,response):
         """
         parsing and preprocessing of entire raw NMEA serial response
@@ -90,7 +88,6 @@ class GPS:
 
         return parsed_NMEA_response 
         
-
     def get_data(self):
         """
         main class method
@@ -98,7 +95,7 @@ class GPS:
         operation stores the parsed data in respective instance variables
         
         only interested in GPGGA (gps fix) response!
-        
+
             :param self: 
         """
         # establish serial connection to specified port and baud rate

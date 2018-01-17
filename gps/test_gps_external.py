@@ -1,6 +1,5 @@
 from gps import GPS
 
-
 gps = GPS(baud = 9600, port = "/dev/ttyACM0")
 
 while True:
