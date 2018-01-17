@@ -1,6 +1,6 @@
 # U-Blox 6 EVK-6 GPS class
 
-Basic usage:
+Basic usage: (also see test_gps_external.py)
 - from gps_class import GPS class
 - create class object, specifying device baud rate and port (string):
   - gps = GPS(baud = 9600, port = '/dev/ttyACM0')
@@ -25,6 +25,6 @@ Note:
   - focusing on GPGGA GPS fix serial string
     - see http://aprs.gids.nl/nmea/
 
-test_external_gps.py is a simple script to show a live console feed of GPS serial 
+test_gps_external_.py is a simple script to show a live console feed of GPS serial 
 this shows the GPGGA GPS fix serial string parsed into relevant GPS class instance variables
 
