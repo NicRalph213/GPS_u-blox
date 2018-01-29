@@ -25,6 +25,6 @@ Note:
   - focusing on GPGGA GPS fix serial string
     - see http://aprs.gids.nl/nmea/
 
-test_gps_external_.py is a simple script to show a live console feed of GPS serial 
+./tests/test_gps_external_.py is a simple script to show a live console feed of GPS serial 
 this shows the GPGGA GPS fix serial string parsed into relevant GPS class instance variables
 

@@ -2,7 +2,7 @@
 #Western Sydney University
 #Quick live test of GPS, will print values to console  
 
-from gps_class import GPS
+from ..lib.gps_class import GPS
 
 #initalise GPS class object with correct port and baud rate
 gps = GPS(baud = 9600, port = "/dev/ttyACM0")
